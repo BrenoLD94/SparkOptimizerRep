@@ -25,8 +25,8 @@ bucket_name/
     │       └── utils.py
     └── tmp/
 ```
-- Criar tabela no BigQuery: Basta executar o código do script `create_bq_table.sql` no BigQuery.
-- Criar o cluster: Abra o Google Cloud Shell e execute o script createCluster.sh. A criação do cluster levou menos de 5 minutos no meu caso. Certifique-se de que o cluster possui 4 nós, cada um com 16 núcleos, 64 GB de memória e 250 GB de disco.
+- __Criar tabela no BigQuery__: Basta executar o código do script `create_bq_table.sql` no BigQuery.
+- __Criar o cluster__: Abra o Google Cloud Shell e execute o script createCluster.sh. A criação do cluster levou menos de 5 minutos no meu caso. Certifique-se de que o cluster possui 4 nós, cada um com 16 núcleos, 64 GB de memória e 250 GB de disco.
 
 ## Conjunto de dados fonte
 **Dataset**: 
