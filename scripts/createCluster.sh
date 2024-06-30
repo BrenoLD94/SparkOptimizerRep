@@ -1,0 +1,16 @@
+gcloud dataproc clusters create cluster-sparkapp \
+    --enable-component-gateway \
+    --bucket bucket_name \ 
+    --region us-central1 \
+    --subnet default \
+    --no-address \
+    --master-machine-type n2-standard-16 \
+    --master-boot-disk-type pd-balanced \
+    --master-boot-disk-size 500 \
+    --num-workers 4 \
+    --worker-machine-type n2-standard-16 \
+    --worker-boot-disk-type pd-balanced \
+    --worker-boot-disk-size 250 \
+    --image-version 2.2-debian12 \
+    --optional-components JUPYTER \
+    --project id_projeto
