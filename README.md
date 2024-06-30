@@ -57,7 +57,8 @@ project-root/
 │ ├── createCluster.sh # Script para criar o cluster
 | ├── submitJob.sh # script para enviar o job para o cluster
 | ├── create_bq_table.sql # sql para criar tabela no Bigquery
-│
+│ ├── delete_resources.sh # script para deletar os recursos
+|
 ├── src/ # Código-fonte do projeto
 │ ├── main.py # Ponto de entrada principal para o job Spark
 │ ├── utils/ # Módulo de propósito geral
@@ -70,6 +71,8 @@ project-root/
 ## Como Executar
     Execute o script `submitJob.sh` no Google Console Cloud. Esse job executou em 13 minutos
 
+## Deletando os recursos
+    Basta executar o script `delete_resources.sh` no cloud shell. Qualquer erro basta excluir via console gráfica. 
 
 ## Referências
 
